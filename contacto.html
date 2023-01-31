@@ -11,6 +11,11 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <style>
+      body {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1082%26quot%3b)' fill='none'%3e%3cpath d='M791.789%2c1312.621C880.628%2c1310.836%2c965.519%2c1275.658%2c1014.214%2c1201.332C1068.232%2c1118.881%2c1093.672%2c1012.442%2c1044.375%2c927.085C995.087%2c841.744%2c889.946%2c807.403%2c791.789%2c816.21C707.116%2c823.807%2c651.14%2c893.567%2c607.152%2c966.315C560.912%2c1042.788%2c511.279%2c1131.736%2c553.323%2c1210.594C596.92%2c1292.364%2c699.142%2c1314.483%2c791.789%2c1312.621' fill='rgba(211%2c 215%2c 219%2c 0.67)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M142.086%2c1003.571C232.748%2c1006.399%2c333.348%2c996.569%2c381.785%2c919.879C432.633%2c839.372%2c409.662%2c736.949%2c362.858%2c654.026C315.098%2c569.409%2c239.249%2c494.506%2c142.086%2c495.198C45.814%2c495.884%2c-28.617%2c571.858%2c-73.306%2c657.132C-114.526%2c735.787%2c-119.923%2c830.276%2c-73.036%2c905.69C-28.453%2c977.398%2c57.689%2c1000.938%2c142.086%2c1003.571' fill='rgba(211%2c 215%2c 219%2c 0.67)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-163.02 136.24 a256.3 256.3 0 1 0 512.6 0 a256.3 256.3 0 1 0 -512.6 0z' fill='rgba(211%2c 215%2c 219%2c 0.67)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1272.5652157021782 928.8056544317711L1460.9097807003989 1081.3240759063895 1613.4282021750173 892.9795109081688 1425.0836371767966 740.4610894335503z' fill='rgba(211%2c 215%2c 219%2c 0.67)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1254.08 256.93 a305.71 305.71 0 1 0 611.42 0 a305.71 305.71 0 1 0 -611.42 0z' fill='rgba(211%2c 215%2c 219%2c 0.67)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1082'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -26,24 +31,53 @@
             Portafolio
           </a>
           <div>
-            <a href="proyectos.html" class="btn btn-outline-light">Proyectos</a>            
-            <a href="contacto.html" class="btn btn-outline-light">Contacto</a>
+            <a href="proyectos.html" class="btn btn-outline-secondary"
+              >Proyectos</a
+            >
+            <a href="contacto.html" class="btn btn-outline-secondary"
+              >Contacto</a
+            >
           </div>
         </div>
       </nav>
     </header>
-    <div class="container text-center">
-      <br /><br />
-      <h1>Contacto</h1>
+    <br />
+    <section class="container">
+      <div class="text-center">
+        <h1>Contacto</h1>
+        <br />
+        <img
+          src="./img/hombre.png"
+          width="150"
+          height="150"
+          alt=""
+        /><br /><br />
+        <h2>Gracias por contactarme, ¿en que puedo ayudarte?</h2>
+        <br />
+      </div>
+    </section>
+    <section class="container text">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Nombre:</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Correo:</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Mensaje:</label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+      </form>
       <br />
-      <img src="./img/hombre.png" width="300" height="300" />
-    </div>
-    <br /><br />
-    <section class="">
-      <div class="container text-center">
-        <p class="fs-2">
-          Estudiante de Ing. en Sistemas Computacionales cursando el último año.
-        </p>
+      <div class="text-center d-grid gap-2 col-6 mx-auto">
+        <a href="#" class="btn btn-outline-secondary">Enviar</a>
       </div>
     </section>
     <script
